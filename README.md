@@ -2,11 +2,11 @@
 
 _This is a Breaking Bad series quote generator. It retrieves a quote and his/her author from an API._
 
-## Índice de Contenidos
+## Content Index
 
 -   [Demo](#demo-)
--   [Tech used](#construido-con-%EF%B8%8F)
--   [Installation](#instalación-)
+-   [Tech used](#tech-used-%EF%B8%8F)
+-   [Installation](#installation-)
 
 ## Demo 🚀
 
