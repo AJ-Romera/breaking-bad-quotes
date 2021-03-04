@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Breaking Bad Quotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_This is a Breaking Bad series quote generator. It retrieves a quote and his/her author from an API._
 
-## Available Scripts
+## Índice de Contenidos
 
-In the project directory, you can run:
+-   [Demo](#demo-)
+-   [Tech used](#construido-con-%EF%B8%8F)
+-   [Installation](#instalación-)
 
-### `npm start`
+## Demo 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://breaking-bad-quotes-reactjs.netlify.app/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech used 🛠️
 
-### `npm test`
+-   [Create React App](https://github.com/facebook/create-react-app). - It´s a standarized bootstraping for starting a React App
+-   [Breaking Bad API](https://breaking-bad-quotes.herokuapp.com/v1/quotes). - The API used to get Breaking Bad quotes
+-   React useState Hook - To fetch quotes from the API
+-   React useEffect Hook - To fetch a new quote every time the page is refreshed
+-   JavaScript ES6+ - Latest Javascript Standards
+-   [Emotion](https://emotion.sh/docs/introduction). - Library designed for writing css styles with JavaScript (Styled Components)
+-   PropTypes - Props typechecking verification.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation 🔧
 
-### `npm run build`
+_Clone or fork this repository. Open the project in your console and type the following command:_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_It will install the project dependencies for you, then use the command:_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+_It will start the project in developer mode in your browser. It will open this automatically:_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[http://localhost:3000](http://localhost:3000)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_The page will reload if you make and save changes to the code. You will also see errors in the console (if any)_
