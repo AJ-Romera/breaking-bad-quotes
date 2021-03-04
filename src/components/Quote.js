@@ -38,10 +38,6 @@ const QuoteContainer = styled.div`
 `;
 
 function Frase({ quote }) {
-    /* if (Object.keys(quote).length === 0) {
-        return null;
-    } */
-
     return (
         <QuoteContainer>
             <h1>{quote.quote}</h1>
