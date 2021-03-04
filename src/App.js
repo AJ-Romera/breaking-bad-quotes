@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
+import Quote from './components/Quote';
 
 const Container = styled.div`
     display: flex;
@@ -25,16 +26,20 @@ const Button = styled.button`
 `;
 
 function App() {
+    // State de frases
+    const [quote, setQuote] = useState({});
+
     const fetchFromAPI = async () => {
         const api = await fetch(
             'https://breaking-bad-quotes.herokuapp.com/v1/quotes'
         );
         const quote = await api.json();
-        console.log(quote[0]);
+        setQuote(quote[0]);
     };
 
     return (
         <Container>
+            <Quote quote={quote} />
             <Button onClick={fetchFromAPI}>Get Random Quote</Button>
         </Container>
     );
