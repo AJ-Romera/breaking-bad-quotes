@@ -25,8 +25,12 @@ const Button = styled.button`
 `;
 
 function App() {
-    const fetchFromAPI = () => {
-        console.log('Fetching data...');
+    const fetchFromAPI = async () => {
+        const api = await fetch(
+            'https://breaking-bad-quotes.herokuapp.com/v1/quotes'
+        );
+        const quote = await api.json();
+        console.log(quote[0]);
     };
 
     return (
